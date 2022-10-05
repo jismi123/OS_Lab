@@ -31,8 +31,8 @@ int main()
 					}
 				else if(rmt[i]>0) 
 					{
-					rmt[i]-=TQ;
 					t+=TQ;
+					rmt[i]-=TQ;
 					}
 				if(flag==1 && rmt[i]==0)
 				{
